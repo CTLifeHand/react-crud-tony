@@ -2,6 +2,7 @@
   "name": "react-crud-tony",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://CTLifeHand.github.io/react-crud-tony",
   "dependencies": {
     "classnames": "^2.2.6",
     "react": "^16.4.0",
@@ -22,5 +23,8 @@
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
-  "proxy": "http://localhost:7777"
+  "proxy": "http://localhost:7777",
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
 }

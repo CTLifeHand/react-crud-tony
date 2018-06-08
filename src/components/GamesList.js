@@ -19,5 +19,10 @@ const GamesList = (games) => {
         </div>
     )
 }
+
+GamesList.propTypes = {
+    games: PropTypes.array.isRequired,
+    deleteGame: PropTypes.func.isRequired
+}
  
 export default GamesList;
